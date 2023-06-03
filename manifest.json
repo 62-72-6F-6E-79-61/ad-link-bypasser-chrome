@@ -1,6 +1,6 @@
 {
     "name": "ad-link-bypasser",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "manifest_version": 3,
     "permissions": [
         "tabs",
@@ -14,10 +14,10 @@
         "https://adfoc.us/*",
         "https://adshrink.it/*",
         "https://boost.ink/*",
+        "https://boost.fusedgt.com",
         "https://letsboost.net/*",
-        "https://mediabooster.xyz/*",
+        "https://mboost.me/*",
         "https://rekonise.com/*",
-        "https://shorte.st/*",
         "https://st.st/*",
         "https://social-unlock.com/*",
         "https://sub2get.com/*",
