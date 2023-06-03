@@ -1,0 +1,32 @@
+{
+    "name": "ad-link-bypasser",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "scripting",
+        "storage"
+    ],
+    "host_permissions": [
+        "https://ad-maven.com/*",
+        "https://adf.ly/*",
+        "https://adfoc.us/*",
+        "https://adshrink.it/*",
+        "https://boost.ink/*",
+        "https://letsboost.net/*",
+        "https://mediabooster.xyz/*",
+        "https://rekonise.com/*",
+        "https://shorte.st/*",
+        "https://st.st/*",
+        "https://social-unlock.com/*",
+        "https://sub2get.com/*",
+        "https://sub2unlock.com/*",
+        "https://sub2unlock.net/*",
+        "https://work.ink/*",
+        "https://linkvertise.com/*"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
