@@ -1,5 +1,5 @@
 # ad link bypasser chrome
-ad link bypasser chrome extension
+## A chrome extensions that use https://bypass.city/ to bypass ad-link
 
 How to use:
 
