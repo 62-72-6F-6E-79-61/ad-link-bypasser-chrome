@@ -15,8 +15,13 @@ function checkUrl(url) {
 chrome.tabs.onUpdated.addListener(function (tabId, changeInfo, tab) {
   if (checkUrl(tab.url)) {
     // redirect
-    chrome.tabs.update(tabId, {
-      url: `https://bypass.city/bypass?bypass=${tab.url}`,
+
+    chrome.storage.local.get("redirect", function (result) {
+      chrome.tabs.update(tabId, {
+        url: `https://bypass.city/bypass?bypass=${tab.url}${
+          result["redirect"] ? "&redirect=true" : ""
+        }`,
+      });
     });
   }
 });

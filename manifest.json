@@ -14,7 +14,7 @@
         "https://adfoc.us/*",
         "https://adshrink.it/*",
         "https://boost.ink/*",
-        "https://boost.fusedgt.com",
+        "https://boost.fusedgt.com/*",
         "https://letsboost.net/*",
         "https://mboost.me/*",
         "https://rekonise.com/*",
@@ -26,7 +26,16 @@
         "https://work.ink/*",
         "https://linkvertise.com/*"
     ],
+    "icons": {
+        "32": "favicon.png"
+    },
     "background": {
         "service_worker": "background.js"
+    },
+    "action": {
+        "default_icon": {
+            "32": "favicon.png"
+        },
+        "default_popup": "popup.html"
     }
 }
